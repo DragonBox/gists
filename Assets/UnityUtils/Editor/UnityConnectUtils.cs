@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace WWTK.CrashReporting
 {
+	/**
+	 * Switch CloudId programmatically, used as part of the build process, inside the Editor.
+	 */
 	public class UnityConnectUtils
 	{
 		public static void SetCloudProjectId(string id, string name, string company)
